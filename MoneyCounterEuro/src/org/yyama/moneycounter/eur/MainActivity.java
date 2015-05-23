@@ -484,7 +484,7 @@ public class MainActivity extends Activity implements OnClickListener,
 			Screenshot.saveScreen(MainActivity.this);
 			if (interstitial.isLoaded()) {
 				Log.d("yyama", "インターステシャルはロードされています。");
-//				interstitial.show();
+				interstitial.show();
 			} else {
 				Log.d("yyama", "インターステシャルはロードされていません。");
 			}
