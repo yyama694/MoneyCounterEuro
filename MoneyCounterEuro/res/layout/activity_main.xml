@@ -56,7 +56,8 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:gravity="center_horizontal"
-                    android:text="@string/sub_total" />
+                    android:text="@string/sub_total" >
+                </TextView>
             </TableRow>
 
             <TableRow style="@style/RowStyle" >
